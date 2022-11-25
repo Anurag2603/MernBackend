@@ -8,7 +8,7 @@
     <title>Document</title>
     <style>
         body{
-            background-color: rgb(32, 16, 55);
+            background-color: rgb(80, 193, 230);
             color: white;
         }
         form{
@@ -16,22 +16,22 @@
             width:100vw;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            align-items: flex-start;
+            justify-content: flex-start;
         }
         form input{
             background-color: white;
             color: black;
-            width: 50%;
-            height: 7vh;
+            width: 30%;
+            height: 5vh;
             margin-top: 5px;
             text-align: center;
-            border: none;
+            border: 2px solid black;
             outline: none;
             border-radius: 5px;
         }
         #submit{
-            background-color: aqua;
+            background-color: rgb(202, 158, 48);
         }
         #submit:hover{
             background-color: aquamarine;
@@ -43,7 +43,7 @@
     <center>
         
          <form action="/register" method="POST">
-            <h1>MERN PROJECT FULLSTACK FORM</h1>   
+            <h1 style="text-align: center;">MERN PROJECT</h1>   
             <input type="text" placeholder="your name" name="name">
             <input type="text" placeholder="your email" name="email">
             <input type="number" placeholder="your phone" name="phone">
